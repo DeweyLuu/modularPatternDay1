@@ -8,7 +8,12 @@ exports.hello = function(name) {
 	}
 }
 
+console.log(exports.hello());
+
+//exports.hello = function(name) {
+//	return 'hello ' + gello;
+//}
+
 exports.goodbye = function(name) {
 	return 'goodbye ' + name;
 }
-
