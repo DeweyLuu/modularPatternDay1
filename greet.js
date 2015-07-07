@@ -1,6 +1,6 @@
 var gello = process.argv[2];
 /*
-//this also works...
+//this also works... keep for questions
 exports.hello = function(name) {
 	if (name == undefined) {
 		return 'hello ' + gello;
