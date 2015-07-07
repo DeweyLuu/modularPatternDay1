@@ -1,5 +1,6 @@
 var gello = process.argv[2];
-
+/*
+//this also works...
 exports.hello = function(name) {
 	if (name == undefined) {
 		return 'hello ' + gello;
@@ -7,12 +8,13 @@ exports.hello = function(name) {
 		return 'hello ' + name;
 	}
 }
+*/
 
-console.log(exports.hello());
+exports.hello = function(gello) {
+	return 'hello ' + gello;
+}
 
-//exports.hello = function(name) {
-//	return 'hello ' + gello;
-//}
+console.log(exports.hello(gello));
 
 exports.goodbye = function(name) {
 	return 'goodbye ' + name;
