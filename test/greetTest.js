@@ -9,6 +9,4 @@ describe('greet.js', function() {
 	it('will say goodbye henry when passed henry', function() {
 		expect(greet.goodbye('henry')).to.equal('goodbye henry');
 	});
-
 });
-
