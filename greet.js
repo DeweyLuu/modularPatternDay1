@@ -12,10 +12,10 @@ exports.hello = function(name) {
 
 exports.hello = function(gello) {
 	return 'hello ' + gello;
-}
+};
 
-console.log(exports.hello(gello));
+//console.log(exports.hello(gello));
 
 exports.goodbye = function(name) {
 	return 'goodbye ' + name;
-}
+};
